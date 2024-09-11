@@ -42,8 +42,6 @@ public class busquedaBinaria {
     public static void busqueda(int[] unArray, Scanner cap_teclado){
         int valorMitad = unArray[unArray.length / 2];
         boolean encontrado = false;
-        //System.out.print("\nDame un numero para buscar: ");
-        //int num = cap_teclado.nextInt();
         int i = 0;
             while (encontrado == false){
                 System.out.print("\nDame un numero para buscar: ");
